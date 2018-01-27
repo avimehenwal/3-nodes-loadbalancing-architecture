@@ -1,0 +1,4 @@
+# LOG file
+*.log
+*.swp
+.vagrant*
