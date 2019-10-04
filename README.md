@@ -20,3 +20,13 @@ end
 ```
 watch --difference --interval 0.1 'sudo cat /var/log/nginx/access.log | wc'
 ```
+
+### Creating 3-node swarm
+
+
+```
+docker swarm init --advertise-addr 10.0.0.10
+```
+
+* https://medium.com/@Grigorkh/docker-for-beginners-part-4-deploying-an-app-to-a-swarm-620b4d67e7c3
+* https://github.com/docker/docker.github.io/blob/master/swarm/install-w-machine.md
